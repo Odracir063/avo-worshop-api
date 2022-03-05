@@ -28,6 +28,7 @@ window.fetch(url)
         //crear el titulo
         const title = document.createElement('h2');
         title.textContent = item.name;
+        title.className = 'text-xl text-green-600';
 
         //crear el precio
         const price = document.createElement('div');
